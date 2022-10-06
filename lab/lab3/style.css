@@ -1,0 +1,31 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.todo-table {
+    border: 3px solid #007cba;
+    width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+}
+.todo-table th, td {
+     border: 1px solid #007cba;
+     padding: 5px;
+}
+.page_list {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    list-style: none;
+}
+.page_list li {
+    cursor: pointer;
+    display: block;
+    margin: 0 10px;
+    font-size: 25px;
+}
+.page_list li.active {
+    color: red;
+}
+.page_list a {
+    text-decoration: none;
+    color: inherit;
+}

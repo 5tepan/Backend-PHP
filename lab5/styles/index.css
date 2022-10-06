@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.todo-table {
+  border: 3px solid #007cba;
+  width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: 'Roboto', sans-serif;
+}
+.todo-table {
+  margin-bottom: 10px;
+}
+
+.todo-table th,
+td {
+  border: 1px solid #007cba;
+  padding: 5px;
+}
+.page_list {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  list-style: none;
+}
+.page_list li {
+  cursor: pointer;
+  display: block;
+  margin: 0 10px;
+  font-size: 25px;
+}
+.page_list li.active {
+  color: red;
+}
+.page_list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.content-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter-form {
+  font-family: inherit;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.filter-form input {
+  width: 100px;
+  font-family: inherit;
+  font-size: 18px;
+  padding: 2px 10px;
+  display: block;
+}
+
+.filter-form input[type='submit'] {
+  width: 140px;
+  cursor: pointer;
+}
+
+.priority_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.add_record {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.delete_records {
+   background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
